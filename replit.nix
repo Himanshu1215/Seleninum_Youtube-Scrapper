@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+    pkgs.pip install webdriver_manager
+    pkgs.chromedriver
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
     pkgs.replitPackages.stderred
